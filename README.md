@@ -49,12 +49,12 @@ In this activity, I created a new React-based rendition of the New York Times Ar
 
 ### Home Page
 
-[Image](https://github.com/varan2030/New-York-Times/blob/master/public/images/home.png)
+[Image](https://github.com/varan2030/New-York-Times/blob/master/client/public/images/home.png)
 
 
 ### Search Page
 
 
-[Image](https://github.com/varan2030/New-York-Times/blob/master/public/images/search.png)
+[Image](https://github.com/varan2030/New-York-Times/blob/master/client/public/images/search.png)
 - - -
 
