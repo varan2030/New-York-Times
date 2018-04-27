@@ -13,7 +13,7 @@ const Article = ({ title, url, _id, date, handleClick, buttonText, saved }) => (
           rel="noopener noreferrer"
           target="_blank"
         >
-          View Article
+          Article
         </a>
         <button onClick={() => handleClick(_id)} className="btn btn-primary">
           {buttonText}

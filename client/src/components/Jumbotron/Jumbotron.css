@@ -5,3 +5,8 @@
 .jumbotron h2 {
   font-size: 26px;
 }
+
+.jumbotron {
+  opacity: 0.8;
+  background-color: rgb(192, 189, 189);
+}

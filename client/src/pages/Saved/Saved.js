@@ -37,17 +37,17 @@ class Saved extends Component {
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>(ReactJS) New York Times Article Scrubber</strong>
+                <strong>New York Times Article Scrubber</strong>
               </h1>
               <h2 className="text-center">
-                Search for and save articles of interest.
+                Search and save articles.
               </h2>
             </Jumbotron>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <Card title="Saved Articles" icon="download">
+            <Card title="Saved Articles">
               {this.state.articles.length ? (
                 <List>
                   {this.state.articles.map(article => (

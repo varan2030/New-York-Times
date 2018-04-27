@@ -14,7 +14,7 @@ class Home extends Component {
     q: "",
     start_year: "",
     end_year: "",
-    message: "Search For Articles To Begin!"
+    message: "Search to begin!"
   };
 
   handleInputChange = event => {
@@ -58,15 +58,15 @@ class Home extends Component {
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>(ReactJS) New York Times Article Scrubber</strong>
+                <strong>New York Times Article Scrubber</strong>
               </h1>
               <h2 className="text-center">
-                Search for and save articles of interest.
+                Search and save articles.
               </h2>
             </Jumbotron>
           </Col>
           <Col size="md-12">
-            <Card title="Query" icon="newspaper-o">
+            <Card title="Search">
               <Form
                 handleInputChange={this.handleInputChange}
                 handleFormSubmit={this.handleFormSubmit}

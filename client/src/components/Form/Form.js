@@ -1,17 +1,19 @@
 import React from "react";
+import "./Form.css"
 
 const Form = props => (
+  <div className="format">
   <form>
     <div className="form-group">
       <label htmlFor="topic">
-        <strong>Topic</strong>
+        <strong>Search</strong>
       </label>
       <input
         className="form-control"
         id="topic"
         type="text"
         value={props.q}
-        placeholder="Net Neutrality"
+        placeholder="Search..."
         name="q"
         onChange={props.handleInputChange}
         required
@@ -43,16 +45,17 @@ const Form = props => (
         required
       />
     </div>
-    <div className="pull-right">
+    <div className="pull-left">
       <button
         onClick={props.handleFormSubmit}
         type="submit"
-        className="btn btn-lg btn-danger"
+        className="btn btn-lg btn-primary"
       >
-        Submit
+        Search
       </button>
     </div>
   </form>
+  </div>
 );
 
 export default Form;
